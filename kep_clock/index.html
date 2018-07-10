@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>P5</title>
+  <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+  <style>
+
+           body {margin:0; padding:0;} /* remove top and left whitespace */
+           canvas {display:block;}    /* remove scrollbars */
+           canvas:focus {outline:0;} /* remove blue outline around canvas */
+           .fs {position:fixed; bottom:20px; right:20px;}
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+  <script src="../lib/p5.min.js"></script>
+  <!-- <script src="../lib/p5.dom.js"></script> -->
+  <!-- <script src="../lib/p5.easycam.min.js"></script> -->
+  <!--<script src="../lib/astar.js"></script> -->
+  <!--<script src="../lib/matrix.js"></script> -->
+  <!-- <script src="../lib/nn.js"></script> -->
+
+  <script src="sketch.js"></script>
+  <script>
+    var currentdate = new Date();
+    var datetime = "P5 v2 | Last Sync: " +
+      currentdate.getHours() + ":" +
+      currentdate.getMinutes() + ":" +
+      currentdate.getSeconds();
+    document.title = datetime;
+  </script>
+</head>
+
+<body>
+</body>
+
+</html>
